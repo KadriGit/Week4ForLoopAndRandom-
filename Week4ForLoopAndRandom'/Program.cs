@@ -1,6 +1,10 @@
 ﻿
 Random rnd = new Random();
 
-int myRandom = rnd.Next(1, 11);
+int myRandom;
 
-Console.WriteLine(myRandom);
+for (int i = 0; i < 3; i++)
+{
+    myRandom = rnd.Next(1, 11);
+    Console.WriteLine(myRandom);
+}
