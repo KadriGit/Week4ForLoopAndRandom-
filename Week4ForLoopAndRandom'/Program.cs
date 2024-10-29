@@ -6,5 +6,5 @@ int myRandom;
 for (int i = 0; i < 3; i++)
 {
     myRandom = rnd.Next(1, 11);
-    Console.WriteLine(myRandom);
+    Console.WriteLine($"{i+1} {myRandom}");
 }
